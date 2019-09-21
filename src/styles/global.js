@@ -37,7 +37,7 @@ export default createGlobalStyle`
     }
 
     @font-face {
-        font-family: Gilroy-Regular;
+        font-family: Gilroy;
         src: url(${ GilroyRegular2 }) format('woff2'),
             url(${ GilroyRegular }) format('woff');
         font-weight: 900;
@@ -53,7 +53,7 @@ export default createGlobalStyle`
     }
 
     @font-face {
-        font-family: GilroyBold;
+        font-family: Gilroy-Bold;
         src: url(${ GilroyBold2 }) format('woff2'),
             url(${ GilroyBold }) format('woff');
         font-weight: 900;
@@ -69,11 +69,12 @@ export default createGlobalStyle`
 
     html, body, #root {
         min-height: 100%;
+        height: 100%;
     }
 
     body {
         -webkit-font-smoothing: antialiased !important;
-        font-family: GilroyBold;
+        font-family: Gilroy, Arial, Helvetica, sans-serif;
     }
 
     body, input, button {
