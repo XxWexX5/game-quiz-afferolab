@@ -1,51 +1,62 @@
 import { createGlobalStyle } from 'styled-components';
 
+import GilroyBlack from '../fonts/Gilroy-Black.woff';
+import GilroyBlack2 from '../fonts/Gilroy-Black.woff2';
+import GilroyRegularItalic from '../fonts/Gilroy-RegularItalic.woff';
+import GilroyRegularItalic2 from '../fonts/Gilroy-RegularItalic.woff2';
+import GilroyRegular from '../fonts/Gilroy-Regular.woff';
+import GilroyRegular2 from '../fonts/Gilroy-Regular.woff2';
+import GilroyLight from '../fonts/Gilroy-Light.woff';
+import GilroyLight2 from '../fonts/Gilroy-Light.woff2';
+import GilroyBold from '../fonts/Gilroy-ExtraBold.woff'
+import GilroyBold2 from '../fonts/Gilroy-ExtraBold.woff2'
+
 export default createGlobalStyle`
     @font-face {
-        font-family: 'Gilroy-Black';
-        src: url('../fonts/Gilroy-Black.woff2') format('woff2'),
-            url('../fonts/Gilroy-Black.woff') format('woff');
+        font-family: Gilroy-Black;
+        src: url(${ GilroyBlack2 }) format('woff2'),
+            url(${ GilroyBlack }) format('woff');
         font-weight: 900;
         font-style: normal;
     }
 
     @font-face {
-        font-family: 'Gilroy-RegularItalic';
-        src: url('../fonts/Gilroy-RegularItalic.woff2') format('woff2'),
-            url('../fonts/Gilroy-RegularItalic.woff') format('woff');
-        font-weight: normal;
-        font-style: italic;
-    }
-
-    @font-face {
-        font-family: 'Gilroy-BackItalic';
-        src: url('../fonts/Gilroy-BlackItalic.woff2') format('woff2'),
-            url('../fonts/Gilroy-BlackItalic.woff') format('woff');
+        font-family: Gilroy-Regular;
+        src: url(${ GilroyRegular2 }) format('woff2'),
+            url(${ GilroyRegular }) format('woff');
         font-weight: 900;
-        font-style: italic;
-    }
-
-    @font-face {
-        font-family: 'Gilroy';
-        src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
-            url('../fonts/Gilroy-Regular.woff') format('woff');
-        font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
-        font-family: 'Gilroy-Light';
-        src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
-            url('../fonts/Gilroy-Light.woff') format('woff');
-        font-weight: 300;
+        font-family: Gilroy-Regular-Italic;
+        src: url(${ GilroyRegularItalic2 }) format('woff2'),
+            url(${ GilroyRegularItalic }) format('woff');
+        font-weight: 900;
         font-style: normal;
     }
 
     @font-face {
-        font-family: 'Gilroy-Bold';
-        src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
-            url('../fonts/Gilroy-ExtraBold.woff') format('woff');
-        font-weight: 800;
+        font-family: Gilroy-Regular;
+        src: url(${ GilroyRegular2 }) format('woff2'),
+            url(${ GilroyRegular }) format('woff');
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: Gilroy-Light;
+        src: url(${ GilroyLight2 }) format('woff2'),
+            url(${ GilroyLight }) format('woff');
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: GilroyBold;
+        src: url(${ GilroyBold2 }) format('woff2'),
+            url(${ GilroyBold }) format('woff');
+        font-weight: 900;
         font-style: normal;
     }
 
@@ -62,7 +73,7 @@ export default createGlobalStyle`
 
     body {
         -webkit-font-smoothing: antialiased !important;
-        font-family: Gilroy Arial Helvetica sans-serif;
+        font-family: GilroyBold;
     }
 
     body, input, button {
