@@ -1,13 +1,23 @@
 import styled from 'styled-components';
 
 export const StyledFeedbackClient = styled.div`
-    background-color: #FF0000;
+    background-color: ${ props => props.background };
     padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
 
     p {
         margin: 0;
-        max-width: 120px;
+        max-width: 100px;
         line-height: 1.1em;
+        font-size: 18px;
+        color: #FFFFFF;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     .container-feedback {

@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { StyledIntroduction, Container } from './style/StyledIntroduction';
+import { Link } from 'react-router-dom';
+
+import { StyledIntroduction, Demonstration, Container } from './style/StyledIntroduction';
 
 import FeedbackClient from '../../components/FeedbackClient';
 
@@ -8,6 +10,12 @@ import arteIndicadores from './images/arte_indicadores.png';
 
 const Introduction = () => (
     <StyledIntroduction>
+        <Demonstration>
+            <img src={arteIndicadores} alt="Painel de Indicadores" className="image-indicators" />
+
+            <FeedbackClient className="feedback-client" background="#cb2031" />  
+        </Demonstration>
+
         <Container>
             <main>
                 <section>
@@ -29,10 +37,10 @@ const Introduction = () => (
                 <aside>
                     <img src={arteIndicadores} alt="Painel de Indicadores" />
 
-                    <FeedbackClient />
+                    <FeedbackClient background="#d3564c"/>
                 </aside>
 
-                <a href="#" className="btn btn-advance">Continuar</a>
+                <Link to="/quiz" className="btn btn-advance">Continuar</Link>
             </main>
         </Container>
     </StyledIntroduction>

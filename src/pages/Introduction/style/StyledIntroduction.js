@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import TelephoneOperator from '../images/bg2.png';
 
 export const StyledIntroduction = styled.section`
+    position: relative;
     background-image: url(${ TelephoneOperator });
     background-size: cover;
     background-position: center 1%;
@@ -17,6 +18,41 @@ export const StyledIntroduction = styled.section`
         background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${ TelephoneOperator });  
         justify-content: center;
         padding: 30px;
+        flex-direction: column;
+    }
+`;
+
+export const Demonstration = styled.div`
+    position: absolute;
+    top: 30px;
+    right: 20px;
+
+    @media screen and (max-width: 1200px){
+        position: initial; 
+        margin-bottom: 35px;   
+    }
+
+    @media screen and (max-width: 610px){
+        position: initial; 
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            margin-bottom: 20px;
+        }  
+    }
+
+    .image-indicators,
+    .feedback-client,
+    > div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    img {
+        margin-right: 20px;    
     }
 `;
 
