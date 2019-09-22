@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import { StyledQuiz, Demonstration, Container, ContainerQuestions, Question } from './style/StyledQuiz';
 
@@ -6,43 +6,56 @@ import arteIndicadores from './image/arte_indicadores.png';
 
 import FeedbackClient from '../../components/FeedbackClient';
 
-const Quiz = () => (
-    <StyledQuiz>
-        <Demonstration>
-            <img src={arteIndicadores} alt="Painel de Indicadores" className="image-indicators" />
+export default class Quiz extends Component {
+    state = {
+        answer: '',
+    }
 
-            <FeedbackClient className="feedback-client" background="#cb2031" />  
-        </Demonstration>
+    chooseMyAnswer = (answer) => {
+        console.log(answer.target.value);
+    };
 
-        <Container>
-            <main>
-                <section className="question">
-                    <h3>Pergunta?</h3>
-                    <p>A certificação de metodologias que nos auxiliam a lidar com o entendimento das
-                    metas propostas faz parte de um processo de gerenciamento das novas proposições.</p>
-                </section>
+    render() {
+        return(
+            <StyledQuiz>
+                <Demonstration>
+                    <img src={arteIndicadores} alt="Painel de Indicadores" className="image-indicators" />
 
-                <ContainerQuestions>
-                    <Question>
-                        <button>A</button>
-                        <p>Alternativa 1.</p>
-                    </Question>
+                    <FeedbackClient className="feedback-client" background="#cb2031" />  
+                </Demonstration>
 
-                    <Question>
-                        <button>B</button>
-                        <p>Alternativa 2.</p>
-                    </Question>
+                <Container>
+                    <main>
+                        <section className="question">
+                            <h3>Pergunta?</h3>
+                            <p>A certificação de metodologias que nos auxiliam a lidar com o entendimento das
+                            metas propostas faz parte de um processo de gerenciamento das novas proposições.</p>
+                        </section>
 
-                    <Question>
-                        <button>C</button>
-                        <p>Alternativa 3.</p>
-                    </Question>
-                </ContainerQuestions>
+                        <ContainerQuestions>
+                            <Question>
+                                <input type="radio" id="question_a" value="A" name="question" onChange={(e) => this.chooseMyAnswer(e)} />
+                                <label htmlFor="question_a">A</label>
+                                <label htmlFor="question_a">Alternativa 1.</label>
+                            </Question>
 
-                <a href="" className="btn btn-advance">Confirmar</a>
-            </main>
-        </Container>
-    </StyledQuiz>
-);
+                            <Question>
+                                <input type="radio" id="question_b" value="B" name="question" onChange={(e) => this.chooseMyAnswer(e)} />
+                                <label htmlFor="question_b">B</label>
+                                <label htmlFor="question_b">Alternativa 2.</label>
+                            </Question>
 
-export default Quiz;
+                            <Question>
+                                <input type="radio" id="question_c" value="C" name="question" onChange={(e) => this.chooseMyAnswer(e)} />
+                                <label htmlFor="question_c">C</label>
+                                <label htmlFor="question_c">Alternativa 3.</label>
+                            </Question>
+                        </ContainerQuestions>
+
+                        <a href="" className="btn btn-advance">Confirmar</a>
+                    </main>
+                </Container>
+            </StyledQuiz>
+        );
+    }
+}

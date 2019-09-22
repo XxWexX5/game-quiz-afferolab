@@ -131,11 +131,44 @@ export const Question = styled.div`
     align-items: center;
     margin-bottom: 30px;
 
+    &:hover {
+        input[type="radio"]:checked + label, 
+        input[type="radio"]:not(:checked) + label {    
+            color: #FFFFFF;
+            background-image: url(${ Circle });
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 40%;
+            animation: .8s animtion-circle forwards;
+
+            @keyframes animtion-circle {
+                0% {
+                    background-size: 40%;    
+                }
+                100% {
+                    background-size: 250%;    
+                }
+            }
+        }          
+    }
+
     &:last-child {
         margin-bottom: 0;
     }
 
-    button {
+    label {
+        cursor: pointer;
+    }
+
+    input[type="radio"]:checked,
+    input[type="radio"]:not(:checked) {
+        position: absolute;
+        left: -9999px;
+    }
+
+    input[type="radio"]:checked + label, 
+    input[type="radio"]:not(:checked) + label {
+        content: '';
         font-family: Gilroy-Bold,Arial,Helvetica,sans-serif;
         font-size: 18px;
         padding: 10px 18px;
@@ -144,23 +177,11 @@ export const Question = styled.div`
         border: 2px solid #75308a;
         color: #75308a;
         margin-right: 15px;
+        cursor: pointer;
+    }
 
-        &:hover {
-            color: #FFFFFF;
-            background-image: url(${ Circle });
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 40%;
-            animation: .8s animtion-circle forwards;
-        }
-
-        @keyframes animtion-circle {
-            0% {
-                background-size: 40%;    
-            }
-            100% {
-                background-size: 250%;    
-            }
-        }
+    input[type="radio"]:checked + label {
+        background-color: #75308a; 
+        color: #FFFFFF;   
     }
 `;
