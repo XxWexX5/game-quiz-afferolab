@@ -85,4 +85,51 @@ export default createGlobalStyle`
     button {
         cursor: pointer;
     }
+
+    .mt-2 {
+        margin-top: 20px;
+    }
+
+    .btn.btn-advance {
+        font-family: Gilroy-Bold, Arial, Helvetica, sans-serif;
+        display: inline-block;
+        font-size: 24px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        text-decoration: none;
+        background: rgba(201,33,52,1);
+        background: -moz-linear-gradient(45deg, rgba(201,33,52,1) 0%, rgba(118,48,137,1) 100%);
+        background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(201,33,52,1)), color-stop(100%, rgba(118,48,137,1)));
+        background: -webkit-linear-gradient(45deg, rgba(201,33,52,1) 0%, rgba(118,48,137,1) 100%);
+        background: -o-linear-gradient(45deg, rgba(201,33,52,1) 0%, rgba(118,48,137,1) 100%);
+        background: -ms-linear-gradient(45deg, rgba(201,33,52,1) 0%, rgba(118,48,137,1) 100%);
+        background: linear-gradient(45deg, rgba(201,33,52,1) 0%, rgba(118,48,137,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c92134', endColorstr='#763089', GradientType=1 );
+        filter: hue-rotate(25deg);
+        animation: 2s linear animation-color infinite alternate;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            border-radius: 30px;
+            background-origin: border-box;
+            background-clip: border-box;
+        }
+
+        @keyframes animation-color {
+            0% {
+                filter: hue-rotate(25deg);
+            }    
+            100% {
+                filter: hue-rotate(-70deg);
+            }    
+        }
+
+        @media screen and (max-width: 1200px){
+            font-size: 21px;
+            display: block;
+            text-align: center;
+        }
+    }
 `;
