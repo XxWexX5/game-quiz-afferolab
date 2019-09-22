@@ -28,43 +28,7 @@
 						"fidelizacao": 1
 					}
 				}
-
 			]
-
-		},
-
-		{
-			"id": "Q2",
-			"pergunta": "pergunta 2",
-			"alternativas": [{
-					"id": "Q2_A1",
-					"descricao": "Alternativa 1",
-					"impacto_indicadores": {
-						"satisfacao": 4,
-						"fidelizacao": 0
-					}
-
-				},
-
-				{
-					"id": "Q2_A2",
-					"descricao": "Alternativa 2",
-					"impacto_indicadores": {
-						"satisfacao": 3,
-						"fidelizacao": 2
-					}
-				},
-				{
-					"id": "Q2_A3",
-					"descricao": "Alternativa 3",
-					"impacto_indicadores": {
-						"satisfacao": 4,
-						"fidelizacao": 1
-					}
-				}
-
-			]
-
 		}
 	]
 }
