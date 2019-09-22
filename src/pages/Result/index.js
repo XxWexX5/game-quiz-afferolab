@@ -8,26 +8,31 @@ import arteIndicadores from './images/arte_indicadores.png';
 
 import FeedbackClient from '../../components/FeedbackClient';
 
-const Result = () => (
-    <StyledResult>
-        <Container>
-            <main>
-                <section>
-                    <img src={arteIndicadores} alt="Painel de Indicadores" />
-                    <h2>
-                        Veja sua <i>performance</i> <br />
-                        em cada indicador:
-                    </h2>  
-                </section>
+const Result = () => {
+    localStorage.removeItem('chosenQuestions');
+    localStorage.removeItem('step');
+    
+    return(
+        <StyledResult>
+            <Container>
+                <main>
+                    <section>
+                        <img src={arteIndicadores} alt="Painel de Indicadores" />
+                        <h2>
+                            Veja sua <i>performance</i> <br />
+                            em cada indicador:
+                        </h2>  
+                    </section>
 
-                <FeedbackClient background="transparent" animated={false} />
-                
-                <RestartGame>
-                    <Link to="/introducao" class="btn btn-advance">Reiniciar quiz</Link>
-                </RestartGame>
-            </main>
-        </Container>
-    </StyledResult>
-);
+                    <FeedbackClient background="transparent" animated={false} />
+                    
+                    <RestartGame>
+                        <Link to="/introducao" class="btn btn-advance">Reiniciar quiz</Link>
+                    </RestartGame>
+                </main>
+            </Container>
+        </StyledResult>
+    );
+};
 
 export default Result;

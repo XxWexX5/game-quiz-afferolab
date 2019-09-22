@@ -13,7 +13,7 @@ const Introduction = () => (
         <Demonstration>
             <img src={arteIndicadores} alt="Painel de Indicadores" className="image-indicators" />
 
-            <FeedbackClient className="feedback-client" background="#cb2031" />  
+            <FeedbackClient className="feedback-client" background="#cb2031" animated={true} />  
         </Demonstration>
 
         <Container>
@@ -37,7 +37,7 @@ const Introduction = () => (
                 <aside>
                     <img src={arteIndicadores} alt="Painel de Indicadores" />
 
-                    <FeedbackClient background="#d3564c"/>
+                    <FeedbackClient background="#d3564c" animated={true} />
                 </aside>
 
                 <Link to="/quiz" className="btn btn-advance">Continuar</Link>

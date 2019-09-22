@@ -2,6 +2,8 @@ import React, { Fragment, Component } from 'react';
 
 import axios from 'axios';
 
+import { toaster } from 'evergreen-ui';
+
 import { Redirect } from 'react-router-dom';
 
 import { renderWord } from '../../utilities/question';
@@ -15,29 +17,32 @@ import FeedbackClient from '../../components/FeedbackClient';
 export default class Quiz extends Component {
     state = {
         answer: '',
+        idAnswer: '',
         data: '',
         step: 0,
         chosenQuestions: [],
         limiteQuestions: '',
     }
 
-    chooseMyAnswer = (answer) => {
+    chooseMyAnswer = (answer, idAnswer) => {
         this.setState({
-            answer: answer.target.value
-        })
+            answer,
+            idAnswer,
+        });
     };
 
     renderChosenQuestions = (data) => {
         const elements = [];
-        const { chosenQuestions } = this.state;
 
         while(elements.length < data.questoes_randomizar) {
             data.banco_questoes.map((question, indice) => {
                 let number = Math.floor(Math.random() * data.banco_questoes.length);
                     
                 if(elements.indexOf(number) === -1) {
-                    elements.push(number)
+                    return elements.push(number)
                 }
+
+                return false;
             });
         }
 
@@ -45,10 +50,18 @@ export default class Quiz extends Component {
     }
 
     async componentDidMount() {
-        const { data } = this.state;
-
         const response = await axios.get('/api/quiz.json');
-        this.setState({
+
+        if(localStorage.getItem('step') && localStorage.getItem('chosenQuestions')) {
+            return this.setState({
+                data: response.data,
+                step: parseInt(localStorage.getItem('step')),
+                chosenQuestions: JSON.parse(localStorage.getItem('chosenQuestions')),
+                limiteQuestions: response.data.questoes_randomizar,
+            });
+        }
+
+        return this.setState({
             data: response.data,
             chosenQuestions: this.renderChosenQuestions(response.data),
             limiteQuestions: response.data.questoes_randomizar,
@@ -57,18 +70,29 @@ export default class Quiz extends Component {
     
     nextStep = (e) => {
         e.preventDefault();
+        const { answer } = this.state;
+        
+        if(!answer) {
+            return toaster.danger('Por favor! Selecione uma opção para continuar.');   
+        }
 
-        this.setState({
+        return this.setState({
+            answer: '',
+            idAnswer: '',
             step: this.state.step += 1,
         })
     };
 
     render() {
         const { data, chosenQuestions, step, limiteQuestions } = this.state;
+        
+        if(data) {
+            localStorage.setItem('chosenQuestions', JSON.stringify(chosenQuestions));
+            localStorage.setItem('step', step);
+        }
 
-        console.log(step);
-        console.log(limiteQuestions);
-
+        console.log(localStorage.getItem('chosenQuestions'))
+        
         if(step === limiteQuestions) {
             return <Redirect to={{ pathname: '/resultado', state: { from: this.props.location } }}/>
         }
@@ -95,7 +119,7 @@ export default class Quiz extends Component {
                                         <ContainerQuestions>
                                             { data.banco_questoes[chosenQuestions[step]].alternativas.map((alternativa, id) => (
                                                 <Question key={alternativa.id}>
-                                                    <input type="radio" id={alternativa.id} value={alternativa.impacto_indicadores} name="question" onChange={(e) => this.chooseMyAnswer(e)} />
+                                                    <input type="radio" id={alternativa.id} value={alternativa.id} name="question" onChange={() => this.chooseMyAnswer(alternativa.impacto_indicadores, alternativa.id)} checked={(this.state.idAnswer === alternativa.id) ? true : false}/>
                                                     <label htmlFor={alternativa.id}>{renderWord(id)}</label>
                                                     <label htmlFor={alternativa.id}>{ alternativa.descricao }</label>
                                                 </Question>    
@@ -104,7 +128,7 @@ export default class Quiz extends Component {
                                     </Fragment>
                                 }
 
-                                <a href="" className="btn btn-advance" onClick={(e) => this.nextStep(e)}>Confirmar</a>
+                                <button className="btn btn-advance" onClick={(e) => this.nextStep(e)}>Confirmar</button>
                             </main>
                         ) : null
                     }
