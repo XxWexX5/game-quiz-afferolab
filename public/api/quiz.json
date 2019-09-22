@@ -1,8 +1,279 @@
 {
 	"questoes_randomizar": 10,
-	"banco_questoes": [{
+	"banco_questoes": [
+		{
 			"id": "Q1",
 			"pergunta": "pergunta 1",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Alternativa 1",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 0
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Alternativa 2",
+					"impacto_indicadores": {
+						"satisfacao": 3,
+						"fidelizacao": 2
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Alternativa 3",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 1
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "pergunta 2",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Alternativa 1",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 0
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Alternativa 2",
+					"impacto_indicadores": {
+						"satisfacao": 3,
+						"fidelizacao": 2
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Alternativa 3",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 1
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "pergunta 3",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Alternativa 1",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 0
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Alternativa 2",
+					"impacto_indicadores": {
+						"satisfacao": 3,
+						"fidelizacao": 2
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Alternativa 3",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 1
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "pergunta 4",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Alternativa 1",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 0
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Alternativa 2",
+					"impacto_indicadores": {
+						"satisfacao": 3,
+						"fidelizacao": 2
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Alternativa 3",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 1
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "pergunta 5",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Alternativa 1",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 0
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Alternativa 2",
+					"impacto_indicadores": {
+						"satisfacao": 3,
+						"fidelizacao": 2
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Alternativa 3",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 1
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "pergunta 6",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Alternativa 1",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 0
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Alternativa 2",
+					"impacto_indicadores": {
+						"satisfacao": 3,
+						"fidelizacao": 2
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Alternativa 3",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 1
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "pergunta 7",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Alternativa 1",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 0
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Alternativa 2",
+					"impacto_indicadores": {
+						"satisfacao": 3,
+						"fidelizacao": 2
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Alternativa 3",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 1
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "pergunta 8",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Alternativa 1",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 0
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Alternativa 2",
+					"impacto_indicadores": {
+						"satisfacao": 3,
+						"fidelizacao": 2
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Alternativa 3",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 1
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "pergunta 9",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Alternativa 1",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 0
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Alternativa 2",
+					"impacto_indicadores": {
+						"satisfacao": 3,
+						"fidelizacao": 2
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Alternativa 3",
+					"impacto_indicadores": {
+						"satisfacao": 4,
+						"fidelizacao": 1
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "pergunta 10",
 			"alternativas": [{
 					"id": "Q1_A1",
 					"descricao": "Alternativa 1",
