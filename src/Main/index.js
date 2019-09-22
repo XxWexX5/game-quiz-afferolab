@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import { StyledMain } from './style/StyledMain';
 
 const Main = () => (
@@ -12,7 +14,7 @@ const Main = () => (
                 <span className="highlighted"> melhor decisão para você, para o cliente e para o negócio</span>
                 . Está preparado?
             </p>
-            <a href="#">Clique aqui para aceitar o desafio!</a>
+            <Link to="/introducao">Clique aqui para aceitar o desafio!</Link>
         </aside>
     </StyledMain>
 );

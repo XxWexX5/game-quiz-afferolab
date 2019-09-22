@@ -32,7 +32,7 @@ export const StyledMain = styled.section`
 
         h1 {
             font-family: Gilroy-Bold, Arial, Helvetica, sans-serif;
-            color: purple;
+            color: #75308a;
             font-size: 32px;
             margin: 0;
             padding: 0;
@@ -46,7 +46,7 @@ export const StyledMain = styled.section`
             font-family: Gilroy, Arial, Helvetica, sans-serif;
             font-size: 21px;
             line-height: 1.2em;
-            color: #777;
+            color: #6e6f72;
             margin: 20px 0;
 
             @media screen and (max-width: 1200px){
@@ -56,7 +56,7 @@ export const StyledMain = styled.section`
 
             .highlighted {
                 font-family: Gilroy-Bold, Arial, Helvetica, sans-serif;
-                color: #FF0000;
+                color: #cb2031;
             }
         }
 
@@ -65,19 +65,19 @@ export const StyledMain = styled.section`
             display: inline-block;
             font-size: 24px;
             color: #FFFFFF;
-            margin-top: 5px;
+            margin-top: 10px;
             padding: 10px 15px;
             border-radius: 10px;
             text-decoration: none;
-            background: rgba(73,155,234,1);
-            background: -moz-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
-            background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(26,188,156,1)));
-            background: -webkit-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
-            background: -o-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
-            background: -ms-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
-            background: linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#1abc9c', GradientType=1 );
-            filter: hue-rotate(135deg);
+            background: rgba(201,33,52,1);
+            background: -moz-linear-gradient(45deg, rgba(201,33,52,1) 0%, rgba(118,48,137,1) 100%);
+            background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(201,33,52,1)), color-stop(100%, rgba(118,48,137,1)));
+            background: -webkit-linear-gradient(45deg, rgba(201,33,52,1) 0%, rgba(118,48,137,1) 100%);
+            background: -o-linear-gradient(45deg, rgba(201,33,52,1) 0%, rgba(118,48,137,1) 100%);
+            background: -ms-linear-gradient(45deg, rgba(201,33,52,1) 0%, rgba(118,48,137,1) 100%);
+            background: linear-gradient(45deg, rgba(201,33,52,1) 0%, rgba(118,48,137,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c92134', endColorstr='#763089', GradientType=1 );
+            filter: hue-rotate(25deg);
             animation: 2s linear animation-color infinite alternate;
             transition: all .3s ease-in-out;
 
@@ -89,10 +89,10 @@ export const StyledMain = styled.section`
 
             @keyframes animation-color {
                 0% {
-                    filter: hue-rotate(135deg);
+                    filter: hue-rotate(25deg);
                 }    
                 100% {
-                    filter: hue-rotate(45deg);
+                    filter: hue-rotate(-70deg);
                 }    
             }
 

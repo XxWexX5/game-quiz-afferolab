@@ -8,6 +8,7 @@ const Routes = () => (
     <BrowserRouter>
         <Switch>
             <Route path="/" exact component={Main} />
+            <Route path="/introducao" exact component={() => <h2>Hello World!</h2>} />
         </Switch>
     </BrowserRouter>
 );
