@@ -43,6 +43,7 @@ export const Bar = styled.div`
     background-color: ${props => props.color};
     width: ${props => props.level};
     animation: ${props => props.animated ? '3s animate-bar infinite alternate' : null};
+    transition: all .5s;
 
     &.bar-slow {
         animation-delay: .5s;

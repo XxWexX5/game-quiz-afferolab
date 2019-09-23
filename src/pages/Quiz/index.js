@@ -1,4 +1,8 @@
 import React, { Fragment, Component } from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+
+import * as barActions from '../../actions/bar';
 
 import axios from 'axios';
 
@@ -14,7 +18,7 @@ import arteIndicadores from './image/arte_indicadores.png';
 
 import FeedbackClient from '../../components/FeedbackClient';
 
-export default class Quiz extends Component {
+class Quiz extends Component {
     state = {
         answer: '',
         idAnswer: '',
@@ -22,12 +26,14 @@ export default class Quiz extends Component {
         step: 0,
         chosenQuestions: [],
         limiteQuestions: '',
+        animated: true,
     }
 
     chooseMyAnswer = (answer, idAnswer) => {
         this.setState({
             answer,
             idAnswer,
+            animated: false,
         });
     };
 
@@ -71,27 +77,47 @@ export default class Quiz extends Component {
     nextStep = (e) => {
         e.preventDefault();
         const { answer } = this.state;
+        const { bar } = this.props;
+
+        let fidelizacao = 0, satisfacao = 0;
         
         if(!answer) {
             return toaster.danger('Por favor! Selecione uma opção para continuar.');   
         }
 
-        return this.setState({
+        fidelizacao = answer.fidelizacao + bar[0].fidelizacao;
+        satisfacao = answer.satisfacao + bar[0].satisfacao;
+
+        if(localStorage.getItem('fidelizacao') && localStorage.getItem('satisfacao')) {
+            fidelizacao = answer.fidelizacao + parseInt(localStorage.getItem('fidelizacao'));
+            satisfacao = answer.satisfacao + parseInt(localStorage.getItem('satisfacao'));
+        }
+
+        localStorage.setItem('fidelizacao', fidelizacao);
+        localStorage.setItem('satisfacao', satisfacao);
+
+        const newValueBar = {
+            fidelizacao: fidelizacao,
+            satisfacao: satisfacao 
+        };
+
+        this.setState({
             answer: '',
             idAnswer: '',
             step: this.state.step += 1,
-        })
+            animated: true,
+        });
+
+        return this.props.addValueBar(newValueBar);
     };
 
     render() {
-        const { data, chosenQuestions, step, limiteQuestions } = this.state;
+        const { data, chosenQuestions, step, limiteQuestions, animated } = this.state;
         
         if(data) {
             localStorage.setItem('chosenQuestions', JSON.stringify(chosenQuestions));
             localStorage.setItem('step', step);
         }
-
-        console.log(localStorage.getItem('chosenQuestions'))
         
         if(step === limiteQuestions) {
             return <Redirect to={{ pathname: '/resultado', state: { from: this.props.location } }}/>
@@ -105,7 +131,7 @@ export default class Quiz extends Component {
                     <FeedbackClient className="feedback-client" background="#cb2031" />  
                 </Demonstration>
 
-                <Container>
+                <Container className={animated ? 'animation' : ''}>
                     {
                         (data) ? (
                             <main>
@@ -137,3 +163,11 @@ export default class Quiz extends Component {
         );
     }
 }
+
+const mapStateToProps = state => ({
+    bar: state.bar
+});
+
+const mapDispatchToProps = dispatch => bindActionCreators(barActions, dispatch);
+
+export default connect(mapStateToProps, mapDispatchToProps)(Quiz);

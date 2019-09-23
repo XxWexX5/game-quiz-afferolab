@@ -8,42 +8,49 @@ import FeedbackClient from '../../components/FeedbackClient';
 
 import arteIndicadores from './images/arte_indicadores.png';
 
-const Introduction = () => (
-    <StyledIntroduction>
-        <Demonstration>
-            <img src={arteIndicadores} alt="Painel de Indicadores" className="image-indicators" />
+const Introduction = () => {
+    localStorage.removeItem('chosenQuestions');
+    localStorage.removeItem('step');
+    localStorage.removeItem('fidelizacao');
+    localStorage.removeItem('satisfacao');
 
-            <FeedbackClient className="feedback-client" background="#cb2031" animated={true} />  
-        </Demonstration>
+    return(
+        <StyledIntroduction>
+            <Demonstration>
+                <img src={arteIndicadores} alt="Painel de Indicadores" className="image-indicators" />
 
-        <Container>
-            <main>
-                <section>
-                    <p>
-                        Ao lado, estão os três indicadores do game. Quando você tomar suas decisões, eles poderão
-                        aumentar ou diminuir. Por isso, acompanhe-os para saber sua evolução no jogo.
-                    </p>
-                    
-                    <p>
-                        Você iniciará o game com os indicadores zerados. No decorrer do jogo, eles serão impactados
-                        por todas as sua decisões. Então, fique atento!
-                    </p>
+                <FeedbackClient className="feedback-client" background="#cb2031" animated={true} />  
+            </Demonstration>
 
-                    <p>
-                        Antes de resolver cada situação, reflita como suas escolhas podem influenciar os indicadores.
-                    </p>
-                </section>
+            <Container>
+                <main>
+                    <section>
+                        <p>
+                            Ao lado, estão os três indicadores do game. Quando você tomar suas decisões, eles poderão
+                            aumentar ou diminuir. Por isso, acompanhe-os para saber sua evolução no jogo.
+                        </p>
+                        
+                        <p>
+                            Você iniciará o game com os indicadores zerados. No decorrer do jogo, eles serão impactados
+                            por todas as sua decisões. Então, fique atento!
+                        </p>
 
-                <aside>
-                    <img src={arteIndicadores} alt="Painel de Indicadores" />
+                        <p>
+                            Antes de resolver cada situação, reflita como suas escolhas podem influenciar os indicadores.
+                        </p>
+                    </section>
 
-                    <FeedbackClient background="#d3564c" animated={true} />
-                </aside>
+                    <aside>
+                        <img src={arteIndicadores} alt="Painel de Indicadores" />
 
-                <Link to="/quiz" className="btn btn-advance">Continuar</Link>
-            </main>
-        </Container>
-    </StyledIntroduction>
-);
+                        <FeedbackClient background="#d3564c" animated={true} />
+                    </aside>
+
+                    <Link to="/quiz" className="btn btn-advance">Continuar</Link>
+                </main>
+            </Container>
+        </StyledIntroduction>
+    );
+};
 
 export default Introduction;

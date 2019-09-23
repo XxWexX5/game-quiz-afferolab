@@ -82,6 +82,22 @@ export const Container = styled.section`
     max-width: 1200px;
     width: 100%;
 
+    &.animation {
+        opacity: 0;
+        animation: 1s animation-show forwards;
+
+        @keyframes animation-show {
+            0% {
+                transform: translate3d(0, -20px, 0);
+                opacity: 0;
+            }
+            100% {
+                transform: translate3d(0, 0, 0);
+                opacity: 1;
+            }     
+        }
+    }
+
     @media screen and (max-width: 1200px) {
         margin: 0;
     }

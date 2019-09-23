@@ -8,10 +8,7 @@ import arteIndicadores from './images/arte_indicadores.png';
 
 import FeedbackClient from '../../components/FeedbackClient';
 
-const Result = () => {
-    localStorage.removeItem('chosenQuestions');
-    localStorage.removeItem('step');
-    
+const Result = () => {    
     return(
         <StyledResult>
             <Container>
@@ -27,7 +24,7 @@ const Result = () => {
                     <FeedbackClient background="transparent" animated={false} />
                     
                     <RestartGame>
-                        <Link to="/introducao" class="btn btn-advance">Reiniciar quiz</Link>
+                        <Link to="/introducao" className="btn btn-advance">Reiniciar quiz</Link>
                     </RestartGame>
                 </main>
             </Container>
