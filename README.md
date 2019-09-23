@@ -14,6 +14,23 @@
 ![Imagem 03](https://i.ibb.co/y59mvz3/20190923-000402.jpg)
 ![Imagem 04](https://i.ibb.co/sqyfvLc/20190923-000426.jpg)
 
+### Tecnologias utilizadas:
+* git e github;
+* react;
+* react-router;
+* redux;
+* yarn e npm;
+* scss;
+* animation;
+* compress-image;
+* localStorage;
+* styled-component;
+
+### Programas utilizadas:
+* VS Code;
+* Photoshop;
+* Illustrator;
+
 ###### Adorei realizar este projeto, desde já agradeço pela oportunidade!
 
 Até mais! ༼ つ ◕_◕ ༽つ
