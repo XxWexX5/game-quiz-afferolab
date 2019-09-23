@@ -16,11 +16,15 @@ export const StyledQuiz = styled.section`
     align-items: center;
     justify-content: center;
 
+    @media screen and (max-width: 850px) {
+        display: inline-table;    
+    }
+
     @media screen and (max-width: 1200px){
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${ Team });  
         flex-direction: column;
         justify-content: center;
-        padding: 20px;
+        padding: 45px;
     }
 
     &:after {
@@ -35,19 +39,32 @@ export const StyledQuiz = styled.section`
         background-size: 950px;
         background-repeat: no-repeat;
         background-position: center center;
-        z-index: 0;
+        z-index: -1;
     }
 `;
 
 export const Demonstration = styled.div`
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 0;
+    right: -20px;
+    transform: scale(.8);
     z-index: 1;
+
+    @media screen and (max-width: 1400px) {
+        position: absolute;
+        top: -25px;
+        right: -85px;
+        transform: scale(.6);
+        z-index: 2;
+    }
 
     @media screen and (max-width: 1200px){
         position: initial; 
-        margin-bottom: 35px;   
+        margin-bottom: 35px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(.8);
     }
 
     @media screen and (max-width: 610px){
@@ -56,6 +73,7 @@ export const Demonstration = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
+        transform: scale(1);
 
         img {
             margin-bottom: 20px;

@@ -24,8 +24,9 @@ export const StyledIntroduction = styled.section`
 
 export const Demonstration = styled.div`
     position: absolute;
-    top: 30px;
-    right: 20px;
+    top: 0;
+    right: -20px;
+    transform: scale(.8);
 
     @media screen and (max-width: 1200px){
         position: initial; 

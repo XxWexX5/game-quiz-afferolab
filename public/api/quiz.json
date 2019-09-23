@@ -3,10 +3,10 @@
 	"banco_questoes": [
 		{
 			"id": "Q1",
-			"pergunta": "pergunta 1",
+			"pergunta": "Você gosta da empresa 1?",
 			"alternativas": [{
 					"id": "Q1_A1",
-					"descricao": "Alternativa 1",
+					"descricao": "Sim",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -15,7 +15,7 @@
 				},
 				{
 					"id": "Q1_A2",
-					"descricao": "Alternativa 2",
+					"descricao": "Não",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -23,7 +23,7 @@
 				},
 				{
 					"id": "Q1_A3",
-					"descricao": "Alternativa 3",
+					"descricao": "Talvez",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -33,10 +33,10 @@
 		},
 		{
 			"id": "Q1",
-			"pergunta": "pergunta 2",
+			"pergunta": "Você gosta da empresa 2?",
 			"alternativas": [{
 					"id": "Q1_A1",
-					"descricao": "Alternativa 1",
+					"descricao": "Sim",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -45,7 +45,7 @@
 				},
 				{
 					"id": "Q1_A2",
-					"descricao": "Alternativa 2",
+					"descricao": "Não",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -53,7 +53,7 @@
 				},
 				{
 					"id": "Q1_A3",
-					"descricao": "Alternativa 3",
+					"descricao": "Talvez",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -63,10 +63,10 @@
 		},
 		{
 			"id": "Q1",
-			"pergunta": "pergunta 3",
+			"pergunta": "Você gosta da empresa 3?",
 			"alternativas": [{
 					"id": "Q1_A1",
-					"descricao": "Alternativa 1",
+					"descricao": "Sim",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -75,7 +75,7 @@
 				},
 				{
 					"id": "Q1_A2",
-					"descricao": "Alternativa 2",
+					"descricao": "Não",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -83,7 +83,7 @@
 				},
 				{
 					"id": "Q1_A3",
-					"descricao": "Alternativa 3",
+					"descricao": "Talvez",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -93,10 +93,10 @@
 		},
 		{
 			"id": "Q1",
-			"pergunta": "pergunta 4",
+			"pergunta": "Você gosta da empresa 4?",
 			"alternativas": [{
 					"id": "Q1_A1",
-					"descricao": "Alternativa 1",
+					"descricao": "Sim",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -105,7 +105,7 @@
 				},
 				{
 					"id": "Q1_A2",
-					"descricao": "Alternativa 2",
+					"descricao": "Não",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -113,7 +113,7 @@
 				},
 				{
 					"id": "Q1_A3",
-					"descricao": "Alternativa 3",
+					"descricao": "Talvez",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -123,10 +123,10 @@
 		},
 		{
 			"id": "Q1",
-			"pergunta": "pergunta 5",
+			"pergunta": "Você gosta da empresa 5?",
 			"alternativas": [{
 					"id": "Q1_A1",
-					"descricao": "Alternativa 1",
+					"descricao": "Sim",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -135,7 +135,7 @@
 				},
 				{
 					"id": "Q1_A2",
-					"descricao": "Alternativa 2",
+					"descricao": "Não",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -143,7 +143,7 @@
 				},
 				{
 					"id": "Q1_A3",
-					"descricao": "Alternativa 3",
+					"descricao": "Talvez",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -153,10 +153,10 @@
 		},
 		{
 			"id": "Q1",
-			"pergunta": "pergunta 6",
+			"pergunta": "Você gosta da empresa 6?",
 			"alternativas": [{
 					"id": "Q1_A1",
-					"descricao": "Alternativa 1",
+					"descricao": "Sim",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -165,7 +165,7 @@
 				},
 				{
 					"id": "Q1_A2",
-					"descricao": "Alternativa 2",
+					"descricao": "Não",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -173,7 +173,7 @@
 				},
 				{
 					"id": "Q1_A3",
-					"descricao": "Alternativa 3",
+					"descricao": "Talvez",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -183,10 +183,10 @@
 		},
 		{
 			"id": "Q1",
-			"pergunta": "pergunta 7",
+			"pergunta": "Você gosta da empresa 7?",
 			"alternativas": [{
 					"id": "Q1_A1",
-					"descricao": "Alternativa 1",
+					"descricao": "Sim",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -195,7 +195,7 @@
 				},
 				{
 					"id": "Q1_A2",
-					"descricao": "Alternativa 2",
+					"descricao": "Não",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -203,7 +203,7 @@
 				},
 				{
 					"id": "Q1_A3",
-					"descricao": "Alternativa 3",
+					"descricao": "Talvez",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -213,10 +213,10 @@
 		},
 		{
 			"id": "Q1",
-			"pergunta": "pergunta 8",
+			"pergunta": "Você gosta da empresa 8?",
 			"alternativas": [{
 					"id": "Q1_A1",
-					"descricao": "Alternativa 1",
+					"descricao": "Sim",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -225,7 +225,7 @@
 				},
 				{
 					"id": "Q1_A2",
-					"descricao": "Alternativa 2",
+					"descricao": "Não",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -233,7 +233,7 @@
 				},
 				{
 					"id": "Q1_A3",
-					"descricao": "Alternativa 3",
+					"descricao": "Talvez",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -243,10 +243,10 @@
 		},
 		{
 			"id": "Q1",
-			"pergunta": "pergunta 9",
+			"pergunta": "Você gosta da empresa 9?",
 			"alternativas": [{
 					"id": "Q1_A1",
-					"descricao": "Alternativa 1",
+					"descricao": "Sim",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -255,7 +255,7 @@
 				},
 				{
 					"id": "Q1_A2",
-					"descricao": "Alternativa 2",
+					"descricao": "Não",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -263,7 +263,7 @@
 				},
 				{
 					"id": "Q1_A3",
-					"descricao": "Alternativa 3",
+					"descricao": "Talvez",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -273,10 +273,10 @@
 		},
 		{
 			"id": "Q1",
-			"pergunta": "pergunta 10",
+			"pergunta": "Você gosta da empresa 10?",
 			"alternativas": [{
 					"id": "Q1_A1",
-					"descricao": "Alternativa 1",
+					"descricao": "Sim",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -285,7 +285,7 @@
 				},
 				{
 					"id": "Q1_A2",
-					"descricao": "Alternativa 2",
+					"descricao": "Não",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
@@ -293,7 +293,97 @@
 				},
 				{
 					"id": "Q1_A3",
-					"descricao": "Alternativa 3",
+					"descricao": "Talvez",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "Você gosta da empresa 11?",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Sim",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Não",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Talvez",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "Você gosta da empresa 12?",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Sim",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Não",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Talvez",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+				}
+			]
+		},
+		{
+			"id": "Q1",
+			"pergunta": "Você gosta da empresa 13?",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Sim",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Não",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Talvez",
 					"impacto_indicadores": {
 						"satisfacao": 10,
 						"fidelizacao": 5
