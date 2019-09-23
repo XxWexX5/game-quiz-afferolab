@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { StyledResult, Container, RestartGame } from './style/StyledResult';
 
-import arteIndicadores from './images/arte_indicadores.png';
+import arteIndicadores from '../../imagesOptimized/arte_indicadores.png';
 
 import FeedbackClient from '../../components/FeedbackClient';
 

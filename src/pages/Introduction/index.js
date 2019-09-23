@@ -6,7 +6,7 @@ import { StyledIntroduction, Demonstration, Container } from './style/StyledIntr
 
 import FeedbackClient from '../../components/FeedbackClient';
 
-import arteIndicadores from './images/arte_indicadores.png';
+import arteIndicadores from '../../imagesOptimized/arte_indicadores.png';
 
 const Introduction = () => {
     localStorage.removeItem('chosenQuestions');

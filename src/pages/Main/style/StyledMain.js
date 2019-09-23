@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import BGWoman from '../images/bg1.png';
+import BGWoman from '../../../imagesOptimized/bg1.png';
 
 export const StyledMain = styled.section`
     background-image: url(${ BGWoman });

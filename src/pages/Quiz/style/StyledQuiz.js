@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import Team from '../image/bg3.png';
-import ArtQuiz from '../image/arte_quiz.png';
-import Circle from '../image/circle.svg';
+import Team from '../../../imagesOptimized/bg3.png';
+import ArtQuiz from '../../../imagesOptimized/arte_quiz.png';
+import Circle from '../../../imagesOptimized/circle.svg';
 
 export const StyledQuiz = styled.section`
     position: relative;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import Team from '../images/bg4.png';
+import Team from '../../../imagesOptimized/bg4.png';
 
 export const StyledResult = styled.section`
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${ Team });

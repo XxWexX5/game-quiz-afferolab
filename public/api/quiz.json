@@ -32,7 +32,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q2",
 			"pergunta": "Você gosta da empresa 2?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -62,7 +62,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q3",
 			"pergunta": "Você gosta da empresa 3?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q4",
 			"pergunta": "Você gosta da empresa 4?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -122,7 +122,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q5",
 			"pergunta": "Você gosta da empresa 5?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -152,7 +152,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q6",
 			"pergunta": "Você gosta da empresa 6?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -182,7 +182,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q7",
 			"pergunta": "Você gosta da empresa 7?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -212,7 +212,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q8",
 			"pergunta": "Você gosta da empresa 8?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -242,7 +242,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q9",
 			"pergunta": "Você gosta da empresa 9?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -272,7 +272,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q10",
 			"pergunta": "Você gosta da empresa 10?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -302,7 +302,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q11",
 			"pergunta": "Você gosta da empresa 11?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -332,7 +332,7 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q12",
 			"pergunta": "Você gosta da empresa 12?",
 			"alternativas": [{
 					"id": "Q1_A1",
@@ -362,8 +362,68 @@
 			]
 		},
 		{
-			"id": "Q1",
+			"id": "Q13",
 			"pergunta": "Você gosta da empresa 13?",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Sim",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Não",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Talvez",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+				}
+			]
+		},
+		{
+			"id": "Q14",
+			"pergunta": "Você gosta da empresa 14?",
+			"alternativas": [{
+					"id": "Q1_A1",
+					"descricao": "Sim",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+
+				},
+				{
+					"id": "Q1_A2",
+					"descricao": "Não",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+				},
+				{
+					"id": "Q1_A3",
+					"descricao": "Talvez",
+					"impacto_indicadores": {
+						"satisfacao": 10,
+						"fidelizacao": 5
+					}
+				}
+			]
+		},
+		{
+			"id": "Q15",
+			"pergunta": "Você gosta da empresa 15?",
 			"alternativas": [{
 					"id": "Q1_A1",
 					"descricao": "Sim",

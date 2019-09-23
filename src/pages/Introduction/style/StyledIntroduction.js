@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import TelephoneOperator from '../images/bg2.png';
+import TelephoneOperator from '../../../imagesOptimized/bg2.png';
 
 export const StyledIntroduction = styled.section`
     position: relative;

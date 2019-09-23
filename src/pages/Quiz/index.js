@@ -14,7 +14,7 @@ import { renderWord } from '../../utilities/question';
 
 import { StyledQuiz, Demonstration, Container, ContainerQuestions, Question } from './style/StyledQuiz';
 
-import arteIndicadores from './image/arte_indicadores.png';
+import arteIndicadores from '../../imagesOptimized/arte_indicadores.png';
 
 import FeedbackClient from '../../components/FeedbackClient';
 
