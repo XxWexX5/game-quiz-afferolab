@@ -1,7 +1,7 @@
 ## Game Quiz - Afferobal
 ### By Wevison Ramalho
 
-#Segue os passos abaixo para executar a aplicação:
+### Segue os passos abaixo para executar a aplicação:
 * Clone este repositório;
 * Navegue até a pasta;
 * execute: (yarn ou npm install);
