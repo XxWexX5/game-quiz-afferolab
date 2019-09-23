@@ -8,7 +8,7 @@
 * execute: (yarn start ou npm run start);
 * Pronto!
 
-##### Adorei realizar este projeto, 
-##### desde já agradeço pela oportunidade!
+###### Adorei realizar este projeto, 
+###### desde já agradeço pela oportunidade!
 
 Até mais! ༼ つ ◕_◕ ༽つ
