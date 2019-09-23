@@ -101,10 +101,13 @@ class Quiz extends Component {
             satisfacao: satisfacao 
         };
 
+        let newStep = this.state.step;
+        newStep += 1;
+
         this.setState({
             answer: '',
             idAnswer: '',
-            step: this.state.step += 1,
+            step: newStep,
             animated: true,
         });
 
