@@ -108,7 +108,7 @@ export const Container = styled.aside`
     }
     
     p {
-        font-size: 20px;
+        font-size: 17px;
         line-height: 1.5em;
         color: #FFFFFF;
         max-width: 400px;

@@ -26,7 +26,7 @@ const Introduction = () => {
                 <main>
                     <section>
                         <p>
-                            Ao lado, estão os três indicadores do game. Quando você tomar suas decisões, eles poderão
+                            Ao lado, estão os dois indicadores do game. Quando você tomar suas decisões, eles poderão
                             aumentar ou diminuir. Por isso, acompanhe-os para saber sua evolução no jogo.
                         </p>
                         

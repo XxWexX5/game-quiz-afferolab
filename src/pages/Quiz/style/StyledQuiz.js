@@ -52,7 +52,7 @@ export const Demonstration = styled.div`
 
     @media screen and (max-width: 1400px) {
         position: absolute;
-        top: -25px;
+        top: -10px;
         right: -85px;
         transform: scale(.6);
         z-index: 2;

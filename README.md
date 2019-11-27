@@ -1,5 +1,8 @@
-## Game Quiz - Afferobal
+## Game Quiz
 ### By Wevison Ramalho
+### By Rafael Teixeira
+### By Luiz Tim
+### By Reimon Ferreira
 
 ### Segue os passos abaixo para executar a aplicação:
 * Clone este repositório;
@@ -31,6 +34,6 @@
 * Photoshop;
 * Illustrator;
 
-###### Adorei realizar este projeto, desde já agradeço pela oportunidade!
+###### Adoramos realizar este projeto, desde já agradeço !
 
 Até mais! ༼ つ ◕_◕ ༽つ

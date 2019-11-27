@@ -1,455 +1,455 @@
 {
-	"questoes_randomizar": 10,
-	"banco_questoes": [
-		{
-			"id": "Q1",
-			"pergunta": "Você gosta da empresa 1?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q2",
-			"pergunta": "Você gosta da empresa 2?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q3",
-			"pergunta": "Você gosta da empresa 3?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q4",
-			"pergunta": "Você gosta da empresa 4?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q5",
-			"pergunta": "Você gosta da empresa 5?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q6",
-			"pergunta": "Você gosta da empresa 6?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q7",
-			"pergunta": "Você gosta da empresa 7?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q8",
-			"pergunta": "Você gosta da empresa 8?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q9",
-			"pergunta": "Você gosta da empresa 9?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q10",
-			"pergunta": "Você gosta da empresa 10?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q11",
-			"pergunta": "Você gosta da empresa 11?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q12",
-			"pergunta": "Você gosta da empresa 12?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q13",
-			"pergunta": "Você gosta da empresa 13?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q14",
-			"pergunta": "Você gosta da empresa 14?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		},
-		{
-			"id": "Q15",
-			"pergunta": "Você gosta da empresa 15?",
-			"alternativas": [{
-					"id": "Q1_A1",
-					"descricao": "Sim",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-
-				},
-				{
-					"id": "Q1_A2",
-					"descricao": "Não",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				},
-				{
-					"id": "Q1_A3",
-					"descricao": "Talvez",
-					"impacto_indicadores": {
-						"satisfacao": 10,
-						"fidelizacao": 5
-					}
-				}
-			]
-		}
-	]
+  "questoes_randomizar": 10,
+  "banco_questoes": [
+    {
+      "id": "Q1",
+      "pergunta": "Qual matéria você gosta mais ?",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Matemática.",
+          "impacto_indicadores": {
+            "satisfacao": 5,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Biologia.",
+          "impacto_indicadores": {
+            "satisfacao": 2,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Literatura.",
+          "impacto_indicadores": {
+            "satisfacao": 1,
+            "fidelizacao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "pergunta": "Das perguntas abaixo, qual que você mais se identifica ?",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Tenho facilidade para aprender vendo imagens ou fotos.",
+          "impacto_indicadores": {
+            "satisfacao": 1,
+            "fidelizacao": 1
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Tenho facilidade para aprender ouvindo musicas e rimas.",
+          "impacto_indicadores": {
+            "satisfacao": 2,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Eu aprendo mais fácil metendo a mão na massa.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "pergunta": "Qual atividade você prefere ?",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Tirar fotos/selfies.",
+          "impacto_indicadores": {
+            "satisfacao": 1,
+            "fidelizacao": 1
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Tocar música.",
+          "impacto_indicadores": {
+            "satisfacao": 2,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Montar e desmontar coisas.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "pergunta": "Ao tomar decisões, você:",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Geralmente me baseio na minha intuição.",
+          "impacto_indicadores": {
+            "satisfacao": 1,
+            "fidelizacao": 1
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Prefiro levar em conta a satisfação das pessoas.",
+          "impacto_indicadores": {
+            "satisfacao": 2,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Só me baseio em fatos e dados concretos.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "pergunta": "Como você é em relação a tomar iniciativa ?",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Sou uma pessoa absolutamente lógica e avalio os fatos e dados antes de tomar uma iniciativa.",
+          "impacto_indicadores": {
+            "satisfacao": 1,
+            "fidelizacao": 1
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Sou prático, organizado e bom em executar o que me pedem.",
+          "impacto_indicadores": {
+            "satisfacao": 2,
+            "fidelizacao": 2
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Tenho a tendência de fazer as coisas só quando estou me sentindo emocionalmente bem.",
+          "impacto_indicadores": {
+            "satisfacao": 3,
+            "fidelizacao": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "pergunta": "Se tiver que ler, eu prefiro:",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Um romance.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Ficção científica.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Um livro técnico.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "pergunta": "Ao lidar com mudanças:",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Eu me adapto facilmente às mudanças.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Prefiro participar de situações que eu conheço.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Prefiro descobrir e experimentar coisas novas e diferentes.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q8",
+      "pergunta": "Eu gosto de:",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Matemática / raciocínio lógico.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Desenhar / fazer ilustrações.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Desmontar coisas.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q9",
+      "pergunta": "Diante de alguém conhecido:",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Para saber que a pessoa o escuta é imprescindível que esta esteja a olhar para si.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Importa-lhe o tom, o ritmo e o timbre da sua voz.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "O que importa de verdade são os sentimentos em relação a essa pessoa.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "pergunta": "Numa conversa...",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "O que importa é a temperatura da sala.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Precisa ver projecções e esquemas.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "As projecções visuais incomodam-no.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "pergunta": "O que mais me chama a atenção num carro é:",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "A cor e o design",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "O fato dele ser silencioso.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "O conforto interno.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "pergunta": "Gosto mais de estudar e aprendo mais facilmente quando:",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Leio e escrevo resumos por escrito.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Repito o assunto em voz alta ou vou a palestras.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Estudo em grupo ou em laboratório.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "pergunta": "Quando sou apresentado(a) a alguém, o que mais me chama atenção é:",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "A maneira como ela(e) se veste.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "O tom de voz e o modo como fala.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "O clima que ela(e) transmite (segurança, afetividade, hostilidade, etc).",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "pergunta": "Destas situações, as que me deixam mais relaxado(a) são:",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Admirar uma paisagem, ficar olhando um aquário.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Ouvir música tranqüila, escutar canto de pássaros.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Tomar um banho quente.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "pergunta": "Quando estou num lugar que não conheço, eu me oriento:",
+      "alternativas": [
+        {
+          "id": "Q1_A1",
+          "descricao": "Pelas placas ou por mapas.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A2",
+          "descricao": "Perguntando às pessoas.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        },
+        {
+          "id": "Q1_A3",
+          "descricao": "Seguindo minha intuição.",
+          "impacto_indicadores": {
+            "satisfacao": 10,
+            "fidelizacao": 5
+          }
+        }
+      ]
+    }
+  ]
 }

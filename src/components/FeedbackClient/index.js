@@ -6,14 +6,14 @@ import { StyledFeedbackClient, Progress, Bar } from './style/StyledFeedbackClien
 const FeedbackClient = ({ background, animated, bar }) => (
     <StyledFeedbackClient background={background}>
         <div className="container-feedback">
-            <p>Satisfação do cliente</p>
+            <p style={{ marginRight: "15px" }}>Potencial</p>
             <Progress >
                 <Bar level={parseInt(localStorage.getItem('satisfacao')) + '%'} color="#3469b3" animated={animated || false} className="bar-fast"/>
             </Progress>
         </div>
 
         <div className="container-feedback mt-2">
-            <p>Fidelização</p>
+            <p>Inovação</p>
             <Progress>
                 <Bar level={parseInt(localStorage.getItem('fidelizacao')) + '%'} color="#68469c" animated={animated || false} className="bar-slow"/>
             </Progress>
