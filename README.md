@@ -1,8 +1,5 @@
 ## Game Quiz
 ### By Wevison Ramalho
-### By Rafael Teixeira
-### By Luiz Tim
-### By Reimon Ferreira
 
 ### Segue os passos abaixo para executar a aplicação:
 * Clone este repositório;
