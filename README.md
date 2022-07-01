@@ -1,6 +1,9 @@
 ## Game Quiz
 ### By Wevison Ramalho
 
+Deploy:
+https://game-quiz-afferolab.vercel.app
+
 ### Segue os passos abaixo para executar a aplicação:
 * Clone este repositório;
 * Navegue até a pasta;
