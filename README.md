@@ -1,7 +1,7 @@
 ## Game Quiz
 ### By Wevison Ramalho
 
-[![image-github.png](https://i.postimg.cc/gJsGW34T/image-github.png)](https://postimg.cc/DJS9QJ9r)
+[![image-github.png](https://i.postimg.cc/026MRgLz/image-github.png)](https://postimg.cc/nCJcBWVx)
 
 Deploy:
 https://game-quiz-afferolab.vercel.app
